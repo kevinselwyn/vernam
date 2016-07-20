@@ -22,8 +22,8 @@ Usage: ./vernam [--help] [--table] [--row <row>] [--pad <pad>]
 | --row &lt;row&gt;       | Starting row (26 characters) of the cipher table |
 | --pad &lt;pad&gt;       | Increment by row (can be positive or negative)   |
 | --key &lt;key&gt;       | Secret key used to encode/decode                 |
-| --cipher &lt;cipher&gt; | Message to encode                                |
-| --text &lt;text&gt;     | Plaintext to decode                              |
+| --cipher &lt;cipher&gt; | Message to decode                                |
+| --text &lt;text&gt;     | Message to encode                                |
 
 ##Example
 
