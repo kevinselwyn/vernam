@@ -1,14 +1,14 @@
-#vernam
+# vernam
 
 Vernam Cipher encoder/decoder
 
-##Installation
+## Installation
 
 ```bash
 make && sudo make install
 ```
 
-##Usage
+## Usage
 
 ```
 Usage: ./vernam [--help] [--table] [--row <row>] [--pad <pad>]
@@ -25,7 +25,7 @@ Usage: ./vernam [--help] [--table] [--row <row>] [--pad <pad>]
 | --cipher &lt;cipher&gt; | Message to decode                                |
 | --text &lt;text&gt;     | Message to encode                                |
 
-##Example
+## Example
 
 *Table display for manual encoding/decoding*
 
@@ -89,6 +89,6 @@ Output:
 attackatdawn
 ```
 
-##Explanation
+## Explanation
 
 Read more about the [Gilbert Vernam](https://en.wikipedia.org/wiki/Gilbert_Vernam) and his cipher ([one-time pad](https://en.wikipedia.org/wiki/One-time_pad)).
